@@ -1,0 +1,84 @@
+/*------App.js------*/
+/*bich ki an3mil il padding and border mayathirish fil widh and height mté3i*/
+* {
+  box-sizing : border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #46529d;
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*margin: mil fou9 et louta 10%, 3a limin et lisar fil wosit*/
+.container {
+  width: 60%;
+  margin: 10% auto;
+}
+/*------TodoItem.js------*/
+.ListItems {
+  background: #fff;
+  color: #46529d;
+}
+
+.ListItems p {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px
+}
+
+.ListItems span {
+  display: inline-block; /*Name, age, action:ijiw m3a jnab b3adhéhom*/
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.ListItems span.title {
+  background: #2ebaee;
+  color: #fff;
+}
+
+.ListItems span.name, 
+form input[type=text] {
+  width: 60%;
+}
+
+.ListItems span.age, 
+form input[type=number] {
+  width: 30%;
+}
+
+
+.ListItems span.action, 
+form input[type=submit] {
+  width: 10%;
+}
+
+.Listitems span.icon {
+  color: #f00;
+  cursor: pointer;
+}
+
+form input {
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+form input[type=submit] {
+  background: #2ebaee;
+  border: 0.3px solid #2ebaee;
+  color: #fff;
+  cursor: pointer;
+}
+
+
